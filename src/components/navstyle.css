@@ -1,0 +1,87 @@
+body {
+    margin: 0;
+    font-family: "Lato", sans-serif;
+  }
+
+  img {
+    border-radius: 50%;
+    border: 5px solid #F9E79F;
+    height: 150px;
+    width: 150px;
+    padding: auto;
+    margin-top: 10px;
+    margin-left: 20px;
+  }
+  
+  .mysidebar {
+    margin: 0px;
+    padding: 0;
+    width: 200px;
+    background-color: rgb(174, 62, 62);
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+  }
+  
+  .mysidebar a {
+    display: block;
+    border-radius: 25px;
+    color: rgb(255, 255, 255);
+    padding: 16px;
+    text-decoration: none;
+  }
+   
+  .mysidebar a.active {
+    background-color: #2304aa;
+    color: rgb(208, 243, 121);
+  }
+  
+  .mysidebar a:hover:not(.active) {
+    background-color: #7a7af4;
+    color: white;
+  }
+  
+  div.content {
+    margin-left: 200px;
+    padding: 1px 16px;
+    height: 1000px;
+  }
+  
+  /* @media screen and (max-width: 700px) {
+    .mysidebar {
+      width: 100%;
+      height: auto;
+      position: relative;
+    }
+    .mysidebar a {float: left;}
+    div.content {margin-left: 0;}
+  }
+  
+  @media screen and (max-width: 400px) {
+    .mysidebar a {
+      text-align: center;
+      float: none;
+    }
+  } */
+
+  /* @media screen and (max-width: 700px) {
+    .sidebar {
+      width: 100%;
+      height: auto;
+      position: relative;
+    }
+    .mysidebar a {float: left;}
+    div.content {margin-left: 0;}
+  }
+  
+  @media screen and (max-width: 400px) {
+    .mysidebar a {
+      text-align: center;
+      float: none;
+    } 
+  } */
+
+  @media screen and (max-height: 450px) {
+    .mysidebar {padding-top: 15px;}
+    .mysidebar a {font-size: 18px;}
+  }

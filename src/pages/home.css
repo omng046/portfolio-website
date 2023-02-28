@@ -1,0 +1,23 @@
+.chomu{
+    padding-left: 210px;
+}
+
+.chomu h1{
+    padding-top: 100px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 60px;
+}
+
+.chomu p{
+    font-family: 'Teko', sans-serif;
+    font-size: 25px;
+    
+}
+.chomu h2{
+    color: darkred;
+}
+
+.atag{
+    background-color: #EDBB99 ;
+   
+}
